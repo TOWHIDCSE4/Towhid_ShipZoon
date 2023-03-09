@@ -1,0 +1,54 @@
+{
+  "frontend": {
+    "admin": {
+      "documents": {
+        "title": "Document Management",
+        "index": "List Of Documents",
+        "draft": "List Of Draft",
+        "create": "Create Application",
+        "detailDraft": "Edit Draft",
+        "detail": "Detail Document",
+        "overView": "Overview"
+      },
+      "invoices":{
+        "index": "Invoices",
+        "title": "Invoice Detail",
+        "description": "Futher detail on chosen data",
+        "detail": "Invoice Detail"
+      },
+      "users": {
+        "title": "Account Management",
+        "myUser": "User Information",
+        "index": "List Of Accounts",
+        "edit": "Edit Account",
+        "create": "Add Account",
+        "twofa": "2FA Settings",
+        "editTmp": "Edit Account"
+      },
+      "roles": {
+        "index": "Role of Account Management",
+        "create": "Add Role",
+        "edit": "Edit Role",
+        "role": "Decentralization Role"
+      },
+      "documentTemplates": {
+        "index": "Document Template",
+        "title": "Document Templates",
+        "create": "Create Document Templates",
+        "edit": "Edit Document Templates",
+        "copy": "Copy Document Templates"
+      },
+      "tenants": {
+        "index": "Tenants",
+        "title": "Tenants",
+        "create": "Create Tenants",
+        "edit": "Edit Tenants"
+      },
+      "powerBi": {
+        "index": "PowerBI Dashboard",
+        "title": "PowerBI Dashboard",
+        "description": ""
+      }
+    }
+  }
+}

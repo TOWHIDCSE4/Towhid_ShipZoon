@@ -1,0 +1,103 @@
+{
+  "definitionFile": "এই ভাষা ফাইলটি বার্তা নামের তালিকা নির্ধারণ করে",
+  "form": {
+    "required": "{{name}} আবশ্যক",
+    "minLength": "{{name}} {length}} অক্ষরের বেশি বা সমান হতে হবে",
+    "maxLength": "{{name}} {{length}} অক্ষরের কম বা সমান হতে হবে",
+    "gte": "{{name}} {{min}} এর থেকে বড় বা সমান হতে হবে ",
+    "gt": "{{name}} {{min}} বড় হতে হবে",
+    "lte": "{{name}}{{max}} এর থেকে কম বা সমান হতে হবে",
+    "lt": "{{name}} {{max}} ছোট হতে হবে ",
+    "eq": "{{name}}এটি {{length}} নম্বর হতে হবে",
+    "number": "{{name}}পূর্ণসংখ্যা হতে হবে!",
+    "email": "ইমেল ভুল ফর্ম্যাট করা হয়েছে abc@domain.com",
+    "rePassword": "পুনরায় পাসওয়ার্ড লিখুন",
+    "newPassword": "পাসওয়ার্ডে অবশ্যই সংখ্যা, বড় এবং ছোট হাতের অক্ষর, বিশেষ অক্ষর এবং 6টির বেশি অক্ষর এবং 50 এর কম থাকতে হবে",
+    "reNewPassword": "একটি নতুন পাসওয়ার্ড এবং আরেকটি নতুন পাসওয়ার্ড পুনরায় লিখুন",
+    "username": "ব্যবহারকারীর নাম a-z, 0-9 অক্ষরের একটি সেট এবং এতে ডট (.), আন্ডারস্কোর (_) এর মতো অক্ষর থাকতে পারে",
+    "password": "পাসওয়ার্ডে অবশ্যই অক্ষর, সংখ্যা, আন্ডারস্কোর থাকতে হবে এবং প্রথম অক্ষর একটি অক্ষর হতে হবে",
+    "inValidPhone": "ফোন নম্বর অবৈধ৷",
+    "invalidPhoneNumber": "আপনার ফোন নম্বর লিখুন",
+    "invalidEmail": "{{email}}এটি বৈধ ইমেইল নয়",
+    "invalidEmails": "{{emails}} এবং {{email}} বৈধ ইমেল নয়",
+    "invalidBegin": "শুরুটা শেষের চেয়ে কম হতে হবে",
+    "invalidEnd": "শেষ হতে হবে শুরুর চেয়ে বড়",
+    "distanceBeginEnd": "শুরু এবং শেষের মধ্যে দূরত্ব 1000 এর কম হওয়া উচিত",
+    "descriptionImage": "ছবির বর্ণনা",
+    "ImgUploadIsTooBig": "আপলোড খুব বড়, সর্বোচ্চ {{max}}MB৷!",
+    "limitImage": "আপলোড করা ছবির {{limit}} সীমিত",
+    "extensionImgNotValid": "ফাইল এক্সটেনশন বৈধ নয়"
+  },
+  "message": {
+    "missing_title": "শিরোনাম বিকল্প অনুপস্থিত",
+    "missing_dataIndex": "অনুপস্থিত dataIndex কলাম",
+    "missing_lable": "অনুপস্থিত লেবেল বিকল্প",
+    "missing_option": "অনুপস্থিত মূল্য বিকল্প",
+    "Change_state_2FA_success": "2FA সাফল্যভাবে পরিবর্তন করুন",
+
+		"loginSuccess": "সফলভাবে লগ ইন করুন",
+		"loginFailed": "লগইন ব্যর্থ",
+    "forgotPasswordFailed": "ভুলে যাওয়া পাসওয়ার্ড ব্যর্থ হয়েছে",
+		"signoutConfirm": "আপনি কি লগ আউট করতে চান?",
+		"foundErr": "একটি ত্রুটি ঘটেছে. অনুগ্রহপূর্বক আবার চেষ্টা করুন!",
+		"forgotPasswordSuccess": "অনুরোধ সফল! আমরা এইমাত্র আপনার ইমেলে একটি পাসওয়ার্ড রিসেট লিঙ্ক পাঠিয়েছি।",
+		"resetPasswordSuccess": "আপনার পাসওয়ার্ড সফলভাবে রিসেট করুন!",
+		"changePasswordSuccess": "আপনার সফলভাবে পাসওয়ার্ড পরিবর্তন করুন!",
+		"signoutSuccess": "লগ আউট সফলভাবে হয়েছে!",
+    "verify2FaSuccess": "সফলভাবে 2FA যাচাই করা হয়েছে!",
+
+		"recordCreated": "তথ্য সফলভাবে তৈরি করা হয়েছে!",
+		"recordUpdated": "তথ্য সফলভাবে আপডেট করা হয়েছে!",
+		"recordDeleted": "ডেটা সফলভাবে মুছে ফেলা হয়েছে!",
+		"deleteConfirm": "আপনি কি নিশ্চিত আপনি এই রেকর্ড মুছে ফেলতে চান?",
+    "activeConfirm": "আপনি কি নিশ্চিত আপনি এই রেকর্ড সক্রিয় করতে চান?",
+    "deactiveConfirm": "আপনি কি নিশ্চিত আপনি এই রেকর্ড নিষ্ক্রিয় করতে চান?",
+
+		"recordUserCreated": "ব্যবহারকারী সফলভাবে তৈরি করা হয়েছে!",
+		"recordUserUpdated": "ব্যবহারকারী সফলভাবে আপডেট হয়েছে!",
+		"recordUserDeleted": "ব্যবহারকারী সফলভাবে মুছে ফেলা হয়েছে!",
+
+		"recordAgentCreated": "এজেন্ট সফলভাবে তৈরি করা হয়েছে!",
+		"recordAgentUpdated": "এজেন্ট সফলভাবে আপডেট হয়েছে!",
+		"recordAgentDeleted": "এজেন্ট সফলভাবে মুছে ফেলা হয়েছে!",
+
+    "recordTenantsCreated": "গ্রাহকের তথ্য সফলভাবে তৈরি করা হয়েছে!",
+    "recordTenantsUpdated": "গ্রাহকের তথ্য সফলভাবে আপডেট হয়েছে!",
+    "recordTenantsDeleted": "গ্রাহকের তথ্য সফলভাবে মুছে ফেলা হয়েছে!",
+    "recordTenantsactived": "গ্রাহকের তথ্য সফলভাবে সক্রিয় হয়েছে!",
+
+		"recordRoleCreated": "ভূমিকা সফলভাবে যোগ করা হয়েছে!",
+		"recordRoleUpdated": "ভূমিকা সফলভাবে আপডেট করা হয়েছে!",
+		"recordRoleDeleted": "ভূমিকা সফলভাবে মুছে ফেলা হয়েছে!",
+		"staffInsuranceFormSuccess": "তথ্য সফলভাবে তৈরি করা হয়েছে!",
+		"staffInsuranceFormUpdateSuccess": "তথ্য সফলভাবে আপডেট করা হয়েছে!",
+    "recordTenantsDraft": "গ্রাহকে সফলভাবে খসড়া হিসাবে সংরক্ষণ করা হয়েছে!",
+    "recordDocumentsDraftDeleted": "খসড়া নথিটি সফলভাবে মুছে ফেলা হয়েছে!",
+    "recordDocumentUpdated": "নথিটি সফলভাবে আপডেট করা হয়েছে!",
+    "recordDocumentDraftCreated": "নথির খসড়া সফলভাবে তৈরি করা হয়েছে!",
+    "recordDocumentCreated":"নথিটি সফলভাবে তৈরি করা হয়েছে!",
+    "recordDocumentRejected": "নথিটি সফলভাবে প্রত্যাখ্যান করা হয়েছে!",
+    "recordDocumentApproved": "নথিটি সফলভাবে অনুমোদিত হয়েছে!",
+    "recordDocumenTemplateDeleted": "নথি টেমপ্লেট সফলভাবে মুছে ফেলা হয়েছে!",
+    "recordDocumentTemplateCreated": "নথি টেমপ্লেট সফলভাবে তৈরি করা হয়েছে!",
+    "recordDocumentTemplateUpdated": "নথি টেমপ্লেট সফলভাবে আপডেট করা হয়েছে!",
+    "Missing_form_creation_information": "ফর্ম তৈরির তথ্য অনুপস্থিত ৷",
+    "recordUserUpdatedInfo": "ব্যবহারকারী সফলভাবে আপডেট করা হয়েছে! আপনি পুনরায় লগইন করার পরে ছবি আপডেট করবেন।",
+
+    "recordDocumentTemplatesCreated": "নথিটি সফলভাবে যোগ করা হয়েছে!",
+		"recordDocumentTemplatesUpdated": "নথিটি সফলভাবে আপডেট করা হয়েছে!",
+
+		"enable2FaSuccess": "2FA সফলভাবে ইনস্টল করা হয়েছে। চালিয়ে যেতে আপনাকে পুনরায় লগইন করতে হবে।",
+
+
+    "pushDataFailed": "টেবিলে অন্তত একটি রেকর্ড লিখুন",
+    "saveTableBeforeSubmit": "জমা দেওয়ার আগে টেবিল সংরক্ষণ করুন",
+    "checkRequiredFields": "প্রয়োজনীয় ক্ষেত্রগুলি চেক করুন",
+    "requiredFields": "প্রয়োজনীয় ক্ষেত্র পূরণ করুন"
+
+
+  },
+  "confirm": {
+    "title": "নিশ্চিত করুন"
+  }
+}

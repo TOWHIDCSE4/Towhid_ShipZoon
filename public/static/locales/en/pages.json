@@ -1,0 +1,512 @@
+{
+  "action": "Action",
+  "delete_confirm": "Are you sure you want to delete this record?",
+  "cancel_confirm": "Are you sure you want to cancel this record?",
+  "upload": {
+    "choose": "Click or drag the file into this area to upload",
+    "description": "Supports single or batch upload",
+    "table": {
+      "header": {
+        "index": "STT",
+        "row": "Row",
+        "errorContent": "Error Content"
+      },
+      "totalRecods": "Total number of records",
+      "totalErrorRecods": "Total error log"
+    }
+  },
+  "login": {
+    "title": "Login page",
+    "description": "",
+    "content": "Welcome! Please login to your account.",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "username": "Username",
+    "password": "Password",
+    "email": "Email",
+    "otp": "OTP",
+    "titleVerify": "Use google authenticator to scan and get the code",
+    "Verify": "Enter the code here",
+    "tokenVerify": "Token Verify",
+    "remember_me": "Remember me",
+    "Welcome_Back": "Welcome Back !",
+    "Sign_in_to_continue_to_KDDI": "Sign in to continue to KDDI"
+  },
+  "forgotPassword": {
+    "title": "Forgot Password",
+    "description": "Reset password with KDDI",
+    "content": "Enter your email and instructions will be sent to you!",
+    "email": "Email",
+    "notify": "Wait, I remember my password...",
+    "click": "Click here",
+    "send_link": "Send Reset Link"
+  },
+  "infoUser": {
+    "title": "User Information",
+    "disable2FA": "Disable 2FA",
+    "enable2FA": "Enable 2FA"
+  },
+  "resetPassword": {
+    "title": "Reset Password!",
+    "description": "",
+    "content": "Enter the new password and re-enter the password to reset the password",
+    "newPassword": "New Password",
+    "reNewPassword": "Re-new Password",
+    "content_kddi": "Reset password with KDDI"
+  },
+  "2Fa": {
+    "title": "Welcome! Please verify to your account.",
+    "description": "Verify Google Authenticator!",
+    "content": "Enter Code to continue to KDDI",
+    "Code": "Code",
+    "notifi": "Wait, I mistyped my account...",
+    "click": "Click here",
+    "Link_here": "Link here"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "description": ""
+  },
+  "changePassword": {
+    "title": "Change Password",
+    "password": "Password",
+    "rePassword": "Re-password"
+  },
+  "users": {
+    "myUser": {
+      "title": "User Information",
+      "description": ""
+    },
+    "index": {
+      "title": "List Of Accounts",
+      "description": ""
+    },
+    "create": {
+      "title": "Create a new account",
+      "description": "Fill out the information to create a new account"
+    },
+    "createTemp": {
+      "title": "update a new account",
+      "description": "Fill out the information to create a new account"
+    },
+    "edit": {
+      "title": "Edit Account",
+      "description": ""
+    },
+    "twofa": {
+      "title": "2-FA Settings",
+      "description": "",
+      "enabledAlready": "2FA is already enabled. You can turn it off at any time. But we do not recommend it.",
+      "notEnable": "You have not enabled 2FA. Please set up 2FA to connect to your phone for enhanced security.",
+      "twoFaRequired": "2FA is required.",
+      "link": {
+        "title": "To use two-step security. You need to install the Google Authenticator app on your mobile.",
+        "link": "You can download it here:",
+        "android": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_SG",
+        "ios": "https://apps.apple.com/us/app/google-authenticator/id388497605"
+      }
+    },
+    "table": {
+      "username": "Username",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "roleGroup": "Role Group",
+      "group": "Group",
+      "parent": "Parent",
+      "email": "Email",
+      "createdAt": "Created At",
+      "last_activicy_date": "Last Activicy Date",
+      "role": "Role",
+      "twofa": "2FA",
+      "tenant": "Tenant",
+      "agUsername": "User created",
+      "Active_status": "Active Status",
+      "gender": "Gender",
+      "commuteMethod": "Commute Method",
+      "marriedStatus": "Married Status"
+    },
+    "form": {
+      "username": "Username",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "roleGroup": "Role Group",
+      "group": "Group",
+      "password": "Password",
+      "last_activicy_date":"Last Activicy Date",
+      "email": "Email",
+      "rePassword": "Re Password",
+      "apiKey": "API Key",
+      "qrcode": "QR Code",
+      "enable2fa": "Enable",
+      "enterCode": "Enter Code",
+      "role": "Role",
+      "twofa": "2FA",
+      "Active_status": "Active Status",
+      "tenant": "Tenant",
+      "phone": "Phone",
+      "birthday": "Date Of Birth",
+      "avatar": "Profile Picture",
+      "gender": "Gender",
+      "commuteMethod": "Commute Method",
+      "marriedStatus": "Married Status"
+    }
+  },
+  "tenants": {
+    "index": {
+      "title": "List Of Tenants",
+      "description": ""
+    },
+    "create": {
+      "title": "Create a new tenant",
+      "description": "Fill out the information to create a new tenant"
+    },
+    "edit": {
+      "title": "Edit tenant",
+      "description": ""
+    },
+    "table": {
+      "code": "code",
+      "name": "Name Tenant",
+      "phone": "Phone Number",
+      "address": "Address",
+      "email": "Email",
+      "state": "State",
+      "others": "Others",
+      "createdAt": "Created At",
+      "actions": "Actions",
+      "account": "Account administration",
+      "tenant": "Tenant"
+    },
+    "form": {
+      "code": "code",
+      "name": "Name",
+      "phone": "Phone Number",
+      "address": "Address",
+      "email": "Email",
+      "state": "State",
+      "others": "Others",
+      "createdAt": "Created At",
+      "account": "Account administration",
+      "actions": "Actions",
+      "tenant": "Tenant"
+    }
+  },
+  "documents": {
+    "overView": {
+      "title": "Application Form",
+      "description": "Apply & submit forms"
+    },
+    "index": {
+      "title": "List Of Documents",
+      "description": "View List Of Documents & its acceptance status",
+      "All": "All",
+      "To_Be_Reviewed":"To Be Reviewed",
+      "Complete": "Complete"
+    },
+    "draft": {
+      "title": "Draft List",
+      "description": "Draft List"
+    },
+    "create": {
+      "title": "Create a new document",
+      "description": "Fill out the information to add a new document"
+    },
+    "edit": {
+      "title": "Update Documents Form",
+      "description": "Update Documents Form"
+    },
+    "detail": {
+      "title": "Details Documents Form",
+      "description": "Details Documents Form"
+    },
+    "detailDraft": {
+      "title": "Details Draft Documents Form",
+      "description": "Details Draft Documents Form"
+    },
+    "table": {
+      "action": "Action",
+      "name": "Form Name",
+      "formId": "Form ID",
+      "issuedBy": "Issued By",
+      "issuedDate": "Issued Date",
+      "submitter": "Submitter",
+      "submitDate": "Submit Date",
+      "status": "Status",
+      "updatedAt": "Updated Date"
+    },
+    "form": {
+      "name": "Form Name",
+      "formId": "Form ID",
+      "issuedBy": "Issued By",
+      "issuedDate": "Issued Date",
+      "status": "Satus",
+      "updatedAt": "Updated Date"
+    },
+    "documentForm": {
+      "submitted": "Submitted",
+      "approve": "Approve",
+      "inReview": "In Review",
+      "rejected": "Rejected",
+      "draft": "Draft",
+      "view": "View",
+      "apply": "Apply"
+    },
+    "staffInsuranceForm": {
+      "title": "Staff Insurance 2022",
+      "description": "A great insurance plan for beloved tenant & workers",
+      "firstName": "First Name"
+    }
+  },
+  "documentTemplates": {
+    "index": {
+      "title": "Document Templates",
+      "description": "Document Templates"
+    },
+    "create": {
+      "title": "Create Document Templates",
+      "description": "Create Document Templates",
+      "fieldInformation": {
+        "title": "Field Information",
+        "fieldName": "Field Name",
+        "dataType": "Data Type",
+        "inputType": "Input Type",
+        "sourceType": "List source type",
+        "source": "List source",
+        "templatesName": "Templates Name",
+        "language": "Language",
+        "label": "Label",
+        "position": "Position",
+        "groupTitle": "Group Title",
+        "stepTitle": "Step Title",
+        "validationMax": "Max Number",
+        "validationNumberFileUpload": "Number Upload",
+        "validationSizeFileUpload": "Size Upload",
+        "validationTypeFileUpload": "Type Upload",
+        "col": "Col",
+        "xs": "xs",
+        "sm": "sm",
+        "lg": "lg",
+        "md": "md",
+        "validations": "Validations"
+      }
+    },
+    "edit": {
+      "title": "Edit Document Templates",
+      "description": "Edit Document Templates"
+    },
+    "copy": {
+      "title": "Copy Document Templates",
+      "description": "Copy Document Templates"
+    },
+    "table": {
+      "name": "Name",
+      "description": "Description",
+      "locale": "Language",
+      "createdAt": "Created At",
+      "Active_status": "Active Status"
+    },
+    "form": {
+      "name": "Name",
+      "description": "Description",
+      "locale": "Language",
+      "createdAt": "Created At",
+      "Active_status": "Active Status"
+    }
+  },
+  "roleGroups": {
+    "index": {
+      "title": "List of Role",
+      "description": "You can search or filter by conditions"
+    },
+    "create": {
+      "title": "Add new Role",
+      "description": "In this screen, you can add a role"
+    },
+    "edit": {
+      "title": "Edit Role",
+      "description": ""
+    },
+    "role": {
+      "title": "Decentralize",
+      "description": ""
+    },
+    "roles": {
+      "title": "Decentralize the role of accounts",
+      "description": "Choose the right permissions for the role of accounts."
+    },
+    "table": {
+      "name": "Name",
+      "description": "Description",
+      "decentralization": "Decentralization",
+      "parent": "Parent",
+      "createdAt": "Created At"
+    },
+    "form": {
+      "name": "Name",
+      "description": "Description",
+      "parent": "Parent"
+    }
+  },
+  "roles": {
+    "index": {
+      "title": "List of Role",
+      "description": "You can search or filter by conditions"
+    },
+    "create": {
+      "title": "Add new Role",
+      "description": "In this screen, you can add a role"
+    },
+    "edit": {
+      "title": "Edit Role",
+      "description": ""
+    },
+    "role": {
+      "title": "Decentralize the role of accounts",
+      "description": "Choose the right permissions for the role of accounts."
+    },
+    "table": {
+      "name": "Name",
+      "description": "Description",
+      "decentralization": "Decentralization",
+      "parent": "Parent",
+      "createdAt": "Created At",
+      "tenant": "Tenant"
+    },
+    "form": {
+      "name": "Name",
+      "description": "Description",
+      "parent": "Parent",
+      "tenant": "Tenant"
+    }
+  },
+  "groups": {
+    "index": {
+      "title": "List of Group",
+      "description": "You can search or filter by conditions"
+    },
+    "create": {
+      "title": "Add new Group",
+      "description": "In this screen, you can add a group"
+    },
+    "edit": {
+      "title": "Edit Group",
+      "description": ""
+    },
+    "table": {
+      "code": "ID",
+      "name": "Name",
+      "description": "Description",
+      "parent": "Parent",
+      "role": "Role",
+      "createdAt": "Created At"
+    },
+    "form": {
+      "code": "ID",
+      "name": "Name",
+      "parent": "Parent",
+      "role": "Role",
+      "description": "Description"
+    }
+  },
+  "settings": {
+    "index": {
+      "title": "List of settings",
+      "description": ""
+    },
+    "edit": {
+      "title": "Edit Settings",
+      "description": ""
+    },
+    "table": {
+      "name": "Name",
+      "description": "Description",
+      "key": "Key",
+      "value": "Value",
+      "createdAt": "Created At"
+    },
+    "form": {
+      "name": "Name",
+      "description": "Description",
+      "key": "Key",
+      "value": "Value"
+    }
+  },
+  "powerBi": {
+    "index": {
+      "title": "PowerBI Dashboard",
+      "description": ""
+    }
+  },
+  "errors": {
+    "403": {
+      "title": "You don't have access",
+      "description": "Sorry, You do not have permission to access this page.",
+      "permissionDetail": "This page requires permissions: \"{{permission}}\" with the value: \"{{requirePermission}}\". But You have: \"{{userPermission}}\"."
+    },
+    "404": {
+      "title": "404! Page not found",
+      "notfound": "Oops! Page not found",
+      "content": "The page you are visiting may have been removed or is temporarily unavailable. Please return to this page later!",
+      "goBack": "Back"
+    }
+  },
+  "invoices": {
+    "table": {
+      "id": "id",
+      "invoiceName": "name",
+      "partnerId": "partner_id",
+      "amountTotal": "amount_total",
+      "invoiceDate": "invoice_date",
+      "consumptionId": "monthly_consumption_id",
+      "reportUrl": "invoice_report_url"
+    },
+    "index": {
+      "title": "List Of Invoices",
+      "description": ""
+    },
+    "detail": {
+      "title": "Invoice Detail",
+      "description": "Futher detail on chosen data"
+    }
+  },
+  "userTemp": {
+    "createTemp": {
+      "title": "Create a new account",
+      "description": "Fill out the information to create a new account"
+    }
+  },
+  "confirmDialog": {
+    "PermistionForm": {
+      "title": "Update Role",
+      "description": "Are you sure you want to update role? If no account in your company contains a unchecked role, you will no longer be able to assign this role. This action cannot be undone."
+    },
+    "documents": {
+      "confirm": {
+        "title": "There's no going back",
+        "description": "Do you really want to submit?"
+      },
+      "approve": {
+        "title": "There's no going back",
+        "description": "Once you approve, you cannot change your decision"
+      },
+      "reject": {
+        "title": "There's no going back",
+        "description": "Once you reject, you cannot change your decision"
+      },
+      "delete": {
+        "title": "Delete document",
+        "description": "Are you sure you want to delete this document? This action cannot be undone."
+      }
+    },
+    "documentDraft": {
+      "submit": {
+        "title": "There's no going back",
+        "description": "Do you really want to submit?"
+      }
+    },
+    "draft": {
+      "title": "Delete Form",
+      "description": "Are you sure you want to delete this form? This action cannot be undone."
+    }
+  }
+}
